@@ -1,5 +1,5 @@
 import React from 'react';
-import './Shop.css';
+import './Shop.css'
 
 const Shop = ({ tshirt }) => {
     const { picture, gender, name, price } = tshirt;
@@ -9,7 +9,7 @@ const Shop = ({ tshirt }) => {
             <p>{name}</p>
             <p>Price: ${price}</p>
             <p>{gender}</p>
-            <button>Bye Now</button>
+            <button className='product-btn'>Bye Now</button>
         </div>
     );
 };
