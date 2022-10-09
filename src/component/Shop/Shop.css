@@ -1,0 +1,19 @@
+.product-text {
+    border: 1px solid gray;
+    border-radius: 8px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.tshirt-img {
+    width: 230px;
+}
+
+.product-text p {
+    margin: 0;
+
+}
+
+.product-text button {
+    margin-top: 10px;
+}

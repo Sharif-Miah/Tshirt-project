@@ -1,15 +1,15 @@
 import React from 'react';
+import './Shop.css';
 
 const Shop = ({ tshirt }) => {
     const { picture, gender, name, price } = tshirt;
     return (
-        <div>
-            <div>
-                <img src={picture} alt="" />
-            </div>
-            <h4>{name}</h4>
+        <div className='product-text'>
+            <img className='tshirt-img' src={picture} alt="" />
+            <p>{name}</p>
             <p>Price: ${price}</p>
             <p>{gender}</p>
+            <button>Bye Now</button>
         </div>
     );
 };
